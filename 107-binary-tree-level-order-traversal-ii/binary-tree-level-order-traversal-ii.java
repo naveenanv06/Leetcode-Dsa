@@ -45,10 +45,10 @@ class Solution {
                     q.offer(node.right);
             }
 
-            ans.add(level);
+            ans.add(0,level);
         }
 
-        Collections.reverse(ans);
+        
 
         return ans;
     }
