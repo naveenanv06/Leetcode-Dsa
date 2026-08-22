@@ -9,7 +9,7 @@ class Solution {
             prod*=temp;
             n/=10;
         }
-        if(a%(sum+prod)==0) return true;
-        return false;
+        return a%(sum+prod)==0;
+        
     }
 }
